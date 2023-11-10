@@ -7,7 +7,7 @@ try:
         x, y = pyautogui.position()
         
         # Print the position
-        print(f"X: {x}, Y: {y}", end="\r")
+        print(f"X: {x}, Y: {y}                       ", end="\r")
 
         # Sleep for a short period to avoid flooding the console
         time.sleep(0.1)
